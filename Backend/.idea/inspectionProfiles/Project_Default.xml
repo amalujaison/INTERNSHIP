@@ -1,0 +1,56 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E225" />
+          <option value="E231" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="elearnapp.models.login_details.objects" />
+          <option value="elearnapp.models.login_details.filter" />
+          <option value="elearnapp.models.user_log.objects" />
+          <option value="elearnapp.models.user_reg.objects" />
+          <option value="elearnapp.models.Cart.objects" />
+          <option value="elearnapp.views.paidcourse.objects" />
+          <option value="elearnapp.models.CartItem.objects" />
+          <option value="elearnapp.models.CartItem.DoesNotExit" />
+          <option value="elearnapp.models.Cart.DoesNotExist" />
+          <option value="elearnapp.views.category.objects" />
+          <option value="elearnapp.views.course.objects" />
+          <option value="elearnapp.models.Course.objects" />
+          <option value="elearnapp.models.Category.objects" />
+          <option value="elearnapp.models.Category.get_all_category" />
+          <option value="cart.cart.Cart.objects" />
+          <option value="cart.cart.Cart.get" />
+          <option value="elearnapp.views.args" />
+          <option value="elearnapp.views.kwargs" />
+          <option value="elearnapp.views.cart_id" />
+          <option value="elearnapp.views.render_to_pdf" />
+          <option value="elearnapp.models.Reviews.objects" />
+          <option value="elearnapp.views.mentor_reg.objects" />
+          <option value="elearnapp.models.Quiz.objects" />
+          <option value="main.generate_mcq" />
+          <option value="elearning.payment.views.payment" />
+          <option value="elearning.payment.views.KEY_ID" />
+          <option value="elearning.payment.views.KEY_SECRET" />
+          <option value="django.views.UserViewSet" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
